@@ -2,9 +2,9 @@
 
 const bgColor = prompt("Введите цвет").toLowerCase().trim();
 
-const arr = ["red", "green", "blue", "purple", "pink", "yellow"]
+const colors = ["red", "green", "blue", "purple", "pink", "yellow", "black", "white", "gray", "silver", "maroon", "olive", "lime", "aqua", "teal", "navy", "orange", "brown"];
 
-if (arr.includes(bgColor)) {
+if (colors.includes(bgColor)) {
     document.body.style.background = bgColor;
     document.getElementById("current_color").innerText = `Фон изменен на: ${bgColor}`;
 } else {
