@@ -1,0 +1,74 @@
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #343434;
+    width: 180px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.traffic-light__elem {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #9a9898;
+}
+
+h2 {
+    text-align: center;
+}
+
+.stick {
+    width: 30px;
+    height: 350px;
+    background: #343434;
+    margin: 0 auto;
+}
+
+@keyframes traffic-light-red {
+    0% {
+        box-shadow: 0 0 1px red;
+    }
+
+    50% {
+        box-shadow: 0 0 50px red;
+    }
+
+    100% {
+        box-shadow: 0 0 1px red;
+    }
+
+}
+
+@keyframes traffic-light-yellow {
+    0% {
+        box-shadow: 0 0 1px yellow;
+    }
+
+    50% {
+        box-shadow: 0 0 50px yellow;
+    }
+
+    100% {
+        box-shadow: 0 0 1px yellow;
+    }
+
+}
+
+@keyframes traffic-light-green {
+    0% {
+        box-shadow: 0 0 1px green;
+    }
+
+    50% {
+        box-shadow: 0 0 50px green;
+    }
+
+    100% {
+        box-shadow: 0 0 1px green;
+    }
+
+}
